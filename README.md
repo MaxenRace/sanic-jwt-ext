@@ -25,7 +25,7 @@ developer. It can act to **protect endpoints** and also provide **authentication
 
 It's easy: (1) install, (2) initialize, and (3) authenticate.
 
-**Install:**
+**How to use?:**
 
 ```
 git clone https://github.com/MaxenRace/sanic-jwt-ext
