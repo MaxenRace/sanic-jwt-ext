@@ -28,7 +28,8 @@ It's easy: (1) install, (2) initialize, and (3) authenticate.
 **Install:**
 
 ```
-pip install sanic-jwt
+git clone https://github.com/MaxenRace/sanic-jwt-ext
+cp sanic-jwt-ext/sanic-jwt-ext your_project_path
 ```
 
   [Sanic]: http://sanic.readthedocs.io
@@ -38,7 +39,7 @@ pip install sanic-jwt
 
 ```python
 from sanic import Sanic
-from sanic_jwt import Initialize
+from sanic_jwt_ext import Initialize
 
 def my_authenticate(request, *args, **kwargs):
     ...
